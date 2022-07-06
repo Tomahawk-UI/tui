@@ -1,0 +1,8 @@
+{
+  "name": "@tui/css-baseline",
+  "version": "1.0.0",
+  "main": "css-baseline.css",
+  "files": [
+    "css-baseline.css"
+  ]
+}
