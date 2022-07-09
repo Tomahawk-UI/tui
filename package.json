@@ -45,5 +45,11 @@
   "authors": [
     "Leonardo Lemos <leo.lemos.ds@icloud.com>",
     "Renan Consalter <renan.consalter@gmail.com>"
-  ]
+  ],
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build"
+  }
 }
