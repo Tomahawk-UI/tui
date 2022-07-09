@@ -1,0 +1,17 @@
+@import "./breakpoints";
+
+$text_aligns: center left right justify inherit initial unset;
+
+@each $name, $breakpoint in $breakpoints {
+  @at-root .text-#{$name} {
+    text-align: #{$name};
+  }
+
+  @each $text_align in $text_aligns {
+    @media (min-width: $breakpoint) {
+      @at-root .text-#{$text_align}\@#{$name} {
+        text-align: #{$text_align};
+      }
+    }
+  }
+}

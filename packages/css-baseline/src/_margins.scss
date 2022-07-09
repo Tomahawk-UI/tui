@@ -1,0 +1,77 @@
+@import "./to_rem";
+@import "./breakpoints";
+
+/* Margins */
+
+$margin_scale: 1 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100;
+
+@at-root .margin-zero {
+  margin: 0;
+}
+
+@each $margin in $margin_scale {
+  @at-root .margin-#{$margin}x {
+    margin: #{to_rem($margin * 2)}rem;
+  }
+
+  @at-root .margin-left-#{$margin}x, .ml-#{$margin}x {
+    margin-left: #{to_rem($margin * 2)}rem;
+  }
+
+  @at-root .margin-right-#{$margin}x, .mr-#{$margin}x {
+    margin-right: #{to_rem($margin * 2)}rem;
+  }
+
+  @at-root .margin-top-#{$margin}x, .mt-#{$margin}x {
+    margin-top: #{to_rem($margin * 2)}rem;
+  }
+
+  @at-root .margin-bottom-#{$margin}x, .mb-#{$margin}x {
+    margin-bottom: #{to_rem($margin * 2)}rem;
+  }
+
+  @at-root .margin-x-#{$margin}x, .mx-#{$margin}x {
+    margin-left: #{to_rem($margin * 2)}rem;
+    margin-right: #{to_rem($margin * 2)}rem;
+  }
+
+  @at-root .margin-y-#{$margin}x, .my-#{$margin}x {
+    margin-top: #{to_rem($margin * 2)}rem;
+    margin-bottom: #{to_rem($margin * 2)}rem;
+  }
+
+  @each $name, $breakpoint in $breakpoints {
+    @media (min-width: $breakpoint) {
+      @at-root .margin-#{$margin}x\@#{$name} {
+        margin: #{to_rem($margin * 2)}rem;
+      }
+
+      @at-root .margin-y-#{$margin}x\@#{$name}, .my-#{$margin}x\@#{$name} {
+        margin-top: #{to_rem($margin * 2)}rem;
+        margin-bottom: #{to_rem($margin * 2)}rem;
+      }
+
+      @at-root .margin-x-#{$margin}x\@#{$name}, .mx-#{$margin}x\@#{$name} {
+        margin-left: #{to_rem($margin * 2)}rem;
+        margin-right: #{to_rem($margin * 2)}rem;
+      }
+
+      @at-root .margin-top-#{$margin}x\@#{$name}, .mt-#{$margin}x\@#{$name} {
+        margin-top: #{to_rem($margin * 2)}rem;
+      }
+
+      @at-root .margin-bottom-#{$margin}x\@#{$name}, .mb-#{$margin}x\@#{$name} {
+        margin-bottom: #{to_rem($margin * 2)}rem;
+      }
+
+      @at-root .margin-left-#{$margin}x\@#{$name}, .ml-#{$margin}x\@#{$name} {
+        margin-left: #{to_rem($margin * 2)}rem;
+      }
+
+      @at-root .margin-right-#{$margin}x\@#{$name}, .mr-#{$margin}x\@#{$name} {
+        margin-right: #{to_rem($margin * 2)}rem;
+      }
+    }
+  }
+}
+

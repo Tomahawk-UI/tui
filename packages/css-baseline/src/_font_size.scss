@@ -1,0 +1,20 @@
+@import "./breakpoints";
+@import "./to_rem";
+
+/* Font sizes */
+
+$font_sizes: 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32;
+
+@each $size in $font_sizes {
+  @at-root .font-size-#{$size}x {
+    font-size: #{to_rem($size * 2)}rem;
+  }
+
+  @each $name, $breakpoint in $breakpoints {
+    @media(min-width: $breakpoint) {
+      @at-root .font-size-#{$size}x\@#{$name} {
+        font-size: #{to_rem($size * 2)}rem;
+      }
+    }
+  }
+}

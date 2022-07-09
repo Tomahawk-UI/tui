@@ -1,0 +1,76 @@
+@import "./to_rem";
+@import "./breakpoints";
+
+/* Padding */
+
+$padding_scale: 1 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100;
+
+@at-root .padding-zero {
+  padding: 0;
+}
+
+@each $padding in $padding_scale {
+  @at-root .padding-#{$padding}x {
+    padding: #{to_rem($padding * 2)}rem;
+  }
+
+  @at-root .padding-left-#{$padding}x, .pl-#{$padding}x {
+    padding-left: #{to_rem($padding * 2)}rem;
+  }
+
+  @at-root .padding-right-#{$padding}x, .pr-#{$padding}x {
+    padding-right: #{to_rem($padding * 2)}rem;
+  }
+
+  @at-root .padding-top-#{$padding}x, .pt-#{$padding}x {
+    padding-top: #{to_rem($padding * 2)}rem;
+  }
+
+  @at-root .padding-bottom-#{$padding}x, .pb-#{$padding}x {
+    padding-bottom: #{to_rem($padding * 2)}rem;
+  }
+
+  @at-root .padding-x-#{$padding}x, .px-#{$padding}x {
+    padding-left: #{to_rem($padding * 2)}rem;
+    padding-right: #{to_rem($padding * 2)}rem;
+  }
+
+  @at-root .padding-y-#{$padding}x, .py-#{$padding}x {
+    padding-top: #{to_rem($padding * 2)}rem;
+    padding-bottom: #{to_rem($padding * 2)}rem;
+  }
+
+  @each $name, $breakpoint in $breakpoints {
+    @media (min-width: $breakpoint) {
+      @at-root .padding-#{$padding}x\@#{$name} {
+        padding: #{to_rem($padding * 2)}rem;
+      }
+
+      @at-root .padding-y-#{$padding}x\@#{$name}, .py-#{$padding}x\@#{$name} {
+        padding-top: #{to_rem($padding * 2)}rem;
+        padding-bottom: #{to_rem($padding * 2)}rem;
+      }
+
+      @at-root .padding-x-#{$padding}x\@#{$name}, .px-#{$padding}x\@#{$name} {
+        padding-left: #{to_rem($padding * 2)}rem;
+        padding-right: #{to_rem($padding * 2)}rem;
+      }
+
+      @at-root .padding-top-#{$padding}x\@#{$name}, .pt-#{$padding}x\@#{$name} {
+        padding-top: #{to_rem($padding * 2)}rem;
+      }
+
+      @at-root .padding-bottom-#{$padding}x\@#{$name}, .pb-#{$padding}x\@#{$name} {
+        padding-bottom: #{to_rem($padding * 2)}rem;
+      }
+
+      @at-root .padding-left-#{$padding}x\@#{$name}, .pl-#{$padding}x\@#{$name} {
+        padding-left: #{to_rem($padding * 2)}rem;
+      }
+
+      @at-root .padding-right-#{$padding}x\@#{$name}, .pr-#{$padding}x\@#{$name} {
+        padding-right: #{to_rem($padding * 2)}rem;
+      }
+    }
+  }
+}

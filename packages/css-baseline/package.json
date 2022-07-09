@@ -1,8 +1,15 @@
 {
   "name": "@tui/css-baseline",
   "version": "1.0.0",
-  "main": "css-baseline.css",
+  "main": "src/_index.scss",
+  "build": "build/_index.css",
   "files": [
-    "css-baseline.css"
-  ]
+    "build"
+  ],
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "build": "node-sass src/_index.scss -o build/"
+  }
 }

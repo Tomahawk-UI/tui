@@ -1,0 +1,17 @@
+@import "./breakpoints";
+
+$text_decorations: underline line-through overline blink none;
+
+@each $dec in $text_decorations {
+  @at-root .text-decoration-#{$dec} {
+    text-decoration: #{$dec};
+  }
+  
+  @each $name, $breakpoint in $breakpoints {
+    @media (min-width: $breakpoint) {
+      @at-root .text-decoration-#{$dec}\@#{$name} {
+        text-decoration: #{$dec};
+      }
+    }
+  }
+}
