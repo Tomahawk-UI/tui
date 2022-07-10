@@ -1,28 +1,39 @@
-import babel from '@rollup/plugin-babel'
-import commonJS from '@rollup/plugin-commonjs'
-import nodeResolve from '@rollup/plugin-node-resolve'
+import commonjs from '@rollup/plugin-commonjs'
+import resolve from '@rollup/plugin-node-resolve'
+import typescript from '@rollup/plugin-typescript'
 import dts from 'rollup-plugin-dts'
+import external from 'rollup-plugin-peer-deps-external'
+import postcss from 'rollup-plugin-postcss'
 import { terser } from 'rollup-plugin-terser'
-import typescript from 'rollup-plugin-typescript2'
 
-import path from 'path'
+const ESM_FILENAME = 'build/esm/index.js'
+const CJS_FILENAME = 'build/cjs/index.js'
+const TYPES_FILENAME = 'build/types/index.d.ts'
 
-export default {
-  input: ['./src/index.ts'],
-  output: [
-    { file: './build/bundle.js', format: 'cjs' },
-    {
-      file: './build/bundle.d.ts',
-      format: 'es',
-    },
-  ],
-  plugins: [
-    nodeResolve(),
-    commonJS(),
-    babel(path.resolve(__dirname, 'babel.config.js')),
-    typescript(),
-    terser(),
-    dts(),
-  ],
-  external: ['lodash.defaultsdeep', 'react', 'react-dom'],
-}
+const TSCONFIG_FILENAME = '../../tsconfig.json'
+
+export default [
+  {
+    input: 'src/index.ts',
+    output: [
+      {
+        file: CJS_FILENAME,
+        format: 'cjs',
+        sourcemap: false,
+        name: 'react-ts-lib',
+      },
+      {
+        file: ESM_FILENAME,
+        format: 'esm',
+        sourcemap: false,
+      },
+    ],
+    plugins: [external(), resolve(), commonjs(), typescript({ tsconfig: TSCONFIG_FILENAME }), postcss(), terser()],
+  },
+  {
+    input: 'src/index.ts',
+    output: [{ file: TYPES_FILENAME, format: 'esm' }],
+    external: [/\.css$/],
+    plugins: [dts()],
+  },
+]
