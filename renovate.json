@@ -1,10 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
-  "preserveSemverRanges": true,
+  "prHeader": "Update Request | Renovate Bot",
   "commitMessagePrefix": "chore:",
-  "commitMessageSuffix": "[ci skip]",
-  "commitMessageIncrement": "patch",
+  "commitMessageTopic": "dependency {{depName}}",
+  "commitMessageAction": "update",
   "commitMessage": "{{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+  "addLabels": ["dependencies"],
   "assignees": ["renovatebot", "mrlemoos", "renanconsalter"]
 }
