@@ -41,7 +41,7 @@
     "jest": "^28.1.2",
     "lerna": "^5.1.6",
     "prettier": "^2.7.1",
-    "renovate": "^32.105.2",
+    "renovate": "32.109.0",
     "rollup": "^2.76.0",
     "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
