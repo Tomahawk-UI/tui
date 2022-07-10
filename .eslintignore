@@ -6,3 +6,5 @@ babel.config.js
 jest.config.js
 .stylelintrc.js
 rollup.config.js
+
+build
