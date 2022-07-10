@@ -28,7 +28,14 @@ export default [
         sourcemap: false,
       },
     ],
-    plugins: [external(), resolve(), commonjs(), typescript({ tsconfig: TSCONFIG_FILENAME }), postcss(), terser()],
+    plugins: [
+      external({ includeDependencies: ['react', 'react-dom'] }),
+      resolve(),
+      commonjs(),
+      typescript({ tsconfig: TSCONFIG_FILENAME }),
+      postcss(),
+      terser(),
+    ],
   },
   {
     input: 'src/index.ts',
