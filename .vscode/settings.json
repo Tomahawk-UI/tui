@@ -4,6 +4,8 @@
     "defaultsdeep",
     "iife",
     "linebreak",
-    "Parens"
+    "Parens",
+    "renderable",
+    "stylelint"
   ]
 }
