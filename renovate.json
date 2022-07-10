@@ -1,3 +1,10 @@
 {
-  "extends": ["config:base"]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "preserveSemverRanges": true,
+  "commitMessagePrefix": "chore:",
+  "commitMessageSuffix": "[ci skip]",
+  "commitMessageIncrement": "patch",
+  "commitMessage": "{{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+  "assignees": ["renovatebot", "mrlemoos", "renanconsalter"]
 }
