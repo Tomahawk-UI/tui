@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "build/bundle.js",
   "types": "build/bundle.d.ts",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "build": "rollup -c ../../rollup.config.js"
   },
