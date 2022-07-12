@@ -44,7 +44,7 @@
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
     "react-docgen": "^5.4.3",
-    "renovate": "32.109.0",
+    "renovate": "32.110.2",
     "rollup": "^2.76.0",
     "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
