@@ -7,6 +7,7 @@
   "commitMessageAction": "update",
   "commitMessage": "{{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
   "addLabels": ["dependencies"],
-  "assignees": ["renovatebot", "mrlemoos", "renanconsalter"],
+  "assignees": ["renovatebot"],
+  "reviewers": ["mrlemoos", "renanconsalter"],
   "rangeStrategy": "replace"
 }
