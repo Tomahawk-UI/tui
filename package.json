@@ -23,6 +23,8 @@
     "@storybook/addon-essentials": "^6.5.9",
     "@storybook/addon-interactions": "^6.5.9",
     "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-webpack4": "^6.5.9",
+    "@storybook/manager-webpack4": "^6.5.9",
     "@storybook/react": "^6.5.9",
     "@storybook/testing-library": "^0.0.13",
     "@testing-library/jest-dom": "^5.16.4",
@@ -44,7 +46,9 @@
     "nx": "14.4.2",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
+    "react": "^18.2.0",
     "react-docgen": "^5.4.3",
+    "react-dom": "^18.2.0",
     "renovate": "32.111.2",
     "rollup": "^2.76.0",
     "rollup-plugin-dts": "^4.2.2",
@@ -72,6 +76,8 @@
     "build": "lerna run build",
     "test": "jest",
     "nx:graph": "nx graph",
-    "lint": "eslint --ext .ts,.tsx packages"
+    "lint": "eslint --ext .ts,.tsx packages",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
