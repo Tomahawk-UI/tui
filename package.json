@@ -71,6 +71,7 @@
   "scripts": {
     "build": "lerna run build",
     "test": "jest",
-    "nx:graph": "nx graph"
+    "nx:graph": "nx graph",
+    "lint": "eslint --ext .ts,.tsx packages"
   }
 }
