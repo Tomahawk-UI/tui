@@ -1,3 +1,6 @@
+const ERROR = 'error'
+const OFF = 'off'
+
 module.exports = {
   env: {
     browser: true,
@@ -17,11 +20,20 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['react', '@typescript-eslint', 'storybook'],
   rules: {
-    indent: ['error', 2],
-    'linebreak-style': ['error', 'unix'],
-    quotes: ['error', 'single'],
-    semi: ['error', 'never'],
+    indent: [ERROR, 2],
+    'linebreak-style': [ERROR, 'unix'],
+    quotes: [ERROR, 'single'],
+    semi: [ERROR, 'never'],
+    'react/prop-types': OFF,
+  },
+  settings: {
+    react: {
+      version: 'detect',
+      pragma: 'React',
+      fragment: 'Fragment',
+      createClass: 'createReactClass',
+    },
   },
 }
