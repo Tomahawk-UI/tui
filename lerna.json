@@ -10,5 +10,6 @@
       "registry": "https://registry.npmjs.org",
       "access": "public"
     }
-  }
+  },
+  "useNx": true
 }

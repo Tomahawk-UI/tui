@@ -41,6 +41,7 @@
     "husky": "^8.0.1",
     "jest": "^28.1.2",
     "lerna": "5.1.8",
+    "nx": "14.4.2",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
     "react-docgen": "^5.4.3",
@@ -68,6 +69,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "test": "jest",
+    "nx:graph": "nx graph"
   }
 }
