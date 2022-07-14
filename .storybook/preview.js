@@ -6,4 +6,11 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  a11y: {
+    config: {},
+    element: '#root',
+    options: {},
+    // Adding manual: false, we tell Storybook to check accessibility automatically.
+    manual: false,
+  },
 }
