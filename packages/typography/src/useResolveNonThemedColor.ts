@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { Theme, useTheme } from '@tui/styled'
+import { Theme, useTheme } from '@tomahawk-ui/styled'
 
 import Typography from './Typography'
 

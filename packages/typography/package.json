@@ -11,7 +11,7 @@
     "build": "rollup -c ../../rollup.config.js"
   },
   "peerDependencies": {
-    "@tui/styled": "*",
+    "@tomahawk-ui/styled": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

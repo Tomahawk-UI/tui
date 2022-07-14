@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { Theme, styled } from '@tui/styled'
+import { Theme, styled } from '@tomahawk-ui/styled'
 
 import resolveVariantAliases from './resolveVariantAliases'
 import useResolveNonThemedColor from './useResolveNonThemedColor'
