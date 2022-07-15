@@ -15467,15 +15467,15 @@ preserve@^0.2.0:
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha512-s/46sYeylUfHNjI+sA/78FAHlmIuKqI9wNnzEOGehAlUUYeObv5C2mOinXBjyUyWmJ2SfcS2/ydApH4hTF4WXQ==
 
+prettier@2.7.1, prettier@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
+  integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
+
 "prettier@>=2.2.1 <=2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.0.tgz#b6a5bf1284026ae640f17f7ff5658a7567fc0d18"
   integrity sha512-kXtO4s0Lz/DW/IJ9QdWhAf7/NmPWQXkFr/r/WkR3vyI+0v8amTDxiaQSLzs8NBlytfLWX/7uQUMIW677yLKl4w==
-
-prettier@^2.7.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
-  integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
 
 pretty-bytes@^5.1.0:
   version "5.6.0"
@@ -16375,10 +16375,10 @@ renderkid@^2.0.4:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@32.111.2:
-  version "32.111.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.111.2.tgz#144581e5d29136b3d40c6c6f49617dbf6e8f0f44"
-  integrity sha512-wywl5CaH4kQA4IwVG+EURT7nu1zRXSInhK2RfjQQC2och8BXxilsb91nIN8c7R/tHvRkn3BxIp8U2mPWuG9vOQ==
+renovate@32.117.0:
+  version "32.117.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.117.0.tgz#b9c0af4849557e689a8dac0c7ff9252915709e77"
+  integrity sha512-uocowCz0BrbJh/ZjLc7Ca3Wp94YpXn/Jou5oENVnzu42o0mYVmQANgjiM90GYB9ClHSnzM/HHK7OPgQcSuTaOg==
   dependencies:
     "@aws-sdk/client-ec2" "3.112.0"
     "@aws-sdk/client-ecr" "3.112.0"
@@ -16444,6 +16444,7 @@ renovate@32.111.2:
     p-map "4.0.0"
     p-queue "6.6.2"
     parse-link-header "2.0.0"
+    prettier "2.7.1"
     redis "4.2.0"
     remark "13.0.0"
     remark-github "10.1.0"
