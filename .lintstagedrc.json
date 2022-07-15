@@ -1,0 +1,8 @@
+{
+  "*.{ts,tsx}": ["eslint --fix"],
+  "*.{css,scss}": ["stylelint --allow-empty-input --fix"],
+  "*": [
+    "prettier --ignore-unknown --write",
+    "cspell --no-must-find-files --no-progress"
+  ]
+}
