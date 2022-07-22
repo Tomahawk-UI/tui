@@ -8024,10 +8024,10 @@ comma-separated-tokens@^1.0.0:
   resolved "https://registry.yarnpkg.com/comma-separated-tokens/-/comma-separated-tokens-1.0.8.tgz#632b80b6117867a158f1080ad498b2fbe7e3f5ea"
   integrity sha512-GHuDRO12Sypu2cV70d1dkA2EUmXHgntrzbpvOB+Qy+49ypNfGgFQIC2fhhXbnyrJRynDCAARsT7Ou0M6hirpfw==
 
-commander@9.3.0:
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-9.3.0.tgz#f619114a5a2d2054e0d9ff1b31d5ccf89255e26b"
-  integrity sha512-hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw==
+commander@9.4.0, commander@^9.3.0:
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-9.4.0.tgz#bc4a40918fefe52e22450c111ecd6b7acce6f11c"
+  integrity sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==
 
 commander@^2.19.0, commander@^2.20.0:
   version "2.20.3"
@@ -8048,11 +8048,6 @@ commander@^7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
   integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
-
-commander@^9.3.0:
-  version "9.4.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-9.4.0.tgz#bc4a40918fefe52e22450c111ecd6b7acce6f11c"
-  integrity sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==
 
 common-ancestor-path@^1.0.1:
   version "1.0.1"
@@ -16547,10 +16542,10 @@ renderkid@^2.0.4:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@32.120.0:
-  version "32.120.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.120.0.tgz#6c9253433f4d0f6488bea71225cf6ec09af62ff3"
-  integrity sha512-wwSW5AplLeOR/aQitiAfnBke/DGkp9W7KmaT5bCNy48IYOUdzlc8elJw3ijxePWHtOp6P5SmaxSGQbHKovRafA==
+renovate@32.123.0:
+  version "32.123.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.123.0.tgz#7d67cca5e7312bd08d4233c4f30f00c0d644e3d5"
+  integrity sha512-FWGa9I9eKSGo3B3M7UmUFI19GcLhpJidXE8pH/CfB52sVEEyd2oI+K3HWiCpA2KLrqDNRq+f8z66/SiiYfkVww==
   dependencies:
     "@aws-sdk/client-ec2" "3.112.0"
     "@aws-sdk/client-ecr" "3.112.0"
@@ -16572,7 +16567,7 @@ renovate@32.120.0:
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
-    commander "9.3.0"
+    commander "9.4.0"
     conventional-commits-detector "1.0.3"
     crypto-random-string "3.3.1"
     deepmerge "4.2.2"
@@ -16631,7 +16626,7 @@ renovate@32.120.0:
     upath "2.0.1"
     url-join "4.0.1"
     validate-npm-package-name "4.0.0"
-    xmldoc "1.1.4"
+    xmldoc "1.2.0"
   optionalDependencies:
     re2 "1.17.7"
 
@@ -19548,10 +19543,10 @@ xdg-basedir@^3.0.0:
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
   integrity sha512-1Dly4xqlulvPD3fZUQJLY+FUIeqN3N2MM3uqe4rCJftAvOjFa3jFGfctOgluGx4ahPbUCsZkmJILiP0Vi4T6lQ==
 
-xmldoc@1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/xmldoc/-/xmldoc-1.1.4.tgz#ea4e26dca76b1d218a2f777018bce404ba374a86"
-  integrity sha512-rQshsBGR5s7pUNENTEncpI2LTCuzicri0DyE4SCV5XmS0q81JS8j1iPijP0Q5c4WLGbKh3W92hlOwY6N9ssW1w==
+xmldoc@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/xmldoc/-/xmldoc-1.2.0.tgz#7554371bfd8c138287cff01841ae4566d26e5541"
+  integrity sha512-2eN8QhjBsMW2uVj7JHLHkMytpvGHLHxKXBy4J3fAT/HujsEtM6yU84iGjpESYGHg6XwK0Vu4l+KgqQ2dv2cCqg==
   dependencies:
     sax "^1.2.4"
 
