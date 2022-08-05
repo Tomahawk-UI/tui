@@ -5261,28 +5261,6 @@
     unfetch "^4.2.0"
     util-deprecate "^1.0.2"
 
-"@storybook/preview-web@6.5.10":
-  version "6.5.10"
-  resolved "https://registry.yarnpkg.com/@storybook/preview-web/-/preview-web-6.5.10.tgz#81bf5d3f5fca9e26099c057206bd8e684225989b"
-  integrity sha512-sTC/o5gkvALOtcNgtApGKGN9EavvSxRHBeBh+5BQjV2qQ8ap+26RsfUizNBECAa2Jrn4osaDYn9HRhJLFL69WA==
-  dependencies:
-    "@storybook/addons" "6.5.10"
-    "@storybook/channel-postmessage" "6.5.10"
-    "@storybook/client-logger" "6.5.10"
-    "@storybook/core-events" "6.5.10"
-    "@storybook/csf" "0.0.2--canary.4566f4d.1"
-    "@storybook/store" "6.5.10"
-    ansi-to-html "^0.6.11"
-    core-js "^3.8.2"
-    global "^4.4.0"
-    lodash "^4.17.21"
-    qs "^6.10.0"
-    regenerator-runtime "^0.13.7"
-    synchronous-promise "^2.0.15"
-    ts-dedent "^2.0.0"
-    unfetch "^4.2.0"
-    util-deprecate "^1.0.2"
-
 "@storybook/preview-web@6.5.9":
   version "6.5.9"
   resolved "https://registry.yarnpkg.com/@storybook/preview-web/-/preview-web-6.5.9.tgz#557d919e6df50d66259521aa36ebf4055bbd236e"
@@ -16939,10 +16917,10 @@ renderkid@^2.0.4:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@32.146.0:
-  version "32.146.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.146.0.tgz#c3ea7f72af54a26bcfa33475180b2b2c6cab71e2"
-  integrity sha512-lKeh6r6CxhBlYkKP+f+2QKMNHA9bTX6AepebjtRi6jio/rB8Fw42sDUC4ekP9ehTDu4BH5FvQf48HjLTRCJHeQ==
+renovate@32.150.0:
+  version "32.150.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.150.0.tgz#9e2eb58f1b5b64d1aedc5982ec6958f0e79f7a30"
+  integrity sha512-HM+bdR1Gi8EV0VOYwC8jMltXGAg0a2Ra26FzkOUghDINTLN8Pdw1UfsQer/Mu72y5iWGXSFnoRBFZYyzVYEbrg==
   dependencies:
     "@aws-sdk/client-ec2" "3.112.0"
     "@aws-sdk/client-ecr" "3.112.0"
