@@ -4071,15 +4071,15 @@
   dependencies:
     graceful-fs "^4.2.6"
 
-"@pnpm/read-project-manifest@3.0.7":
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/@pnpm/read-project-manifest/-/read-project-manifest-3.0.7.tgz#da43fbfe8905678bf7e9258ae406539dbca384c4"
-  integrity sha512-BTCU1l37K2VUGmSo70m6ocaQASPZaTzBgP0RtDloDR8rCb+y7AjOLOjEb+Qs6z9BbhryLWGARlfT5YOaEdca7w==
+"@pnpm/read-project-manifest@3.0.8":
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/@pnpm/read-project-manifest/-/read-project-manifest-3.0.8.tgz#d24c37c1ff70adba0fb29ab5506c57af929036e6"
+  integrity sha512-GbB+FLRmQgCIIwM16ZKG7/MlBd6IDG2lvCTDyhyJp7x4TgS7voSU1L5N87GI4dPjeB7Ferm1iD5LZBY7ckbuLw==
   dependencies:
     "@pnpm/error" "3.0.1"
     "@pnpm/graceful-fs" "2.0.0"
-    "@pnpm/types" "8.4.0"
-    "@pnpm/write-project-manifest" "3.0.5"
+    "@pnpm/types" "8.5.0"
+    "@pnpm/write-project-manifest" "3.0.6"
     detect-indent "^6.1.0"
     fast-deep-equal "^3.1.3"
     is-windows "^1.0.2"
@@ -4089,18 +4089,18 @@
     sort-keys "^4.2.0"
     strip-bom "^4.0.0"
 
-"@pnpm/types@8.4.0":
-  version "8.4.0"
-  resolved "https://registry.yarnpkg.com/@pnpm/types/-/types-8.4.0.tgz#7f4df21b6bb696227a03335a2b374dafa6d31887"
-  integrity sha512-sq/UdSq/jWCpYglw9SFmvR8qzUEi0p2oZIO0AHjkWWQg4Qrolf6DgD0WWmLiEP2WxHjbYeyD3ZzWzQor1+6cvw==
+"@pnpm/types@8.5.0":
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@pnpm/types/-/types-8.5.0.tgz#545383235d0d8a36ec54b3f28ad264549bcffe25"
+  integrity sha512-PSKnhkwgiZtp9dcWZR9mPz2W9UopmADr9o8FTqazo5kjUSh2xQmDUSJOJ/ZWcfNziO64Ix/VbcxKIZeplhog1Q==
 
-"@pnpm/write-project-manifest@3.0.5":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@pnpm/write-project-manifest/-/write-project-manifest-3.0.5.tgz#e833b0ae845456db6e3a8f8b7a6f7c68547a2298"
-  integrity sha512-d56Lz1bIGSvaGRFG9rNliOayq8dLyLiexRaFX3KVO9zCziLJ7i2SNkYlw3bUhDCRYKEDcWvr34zS7NwKRlkBgQ==
+"@pnpm/write-project-manifest@3.0.6":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@pnpm/write-project-manifest/-/write-project-manifest-3.0.6.tgz#6e65dac816195fe76037ae77d41ca0eeb7611f93"
+  integrity sha512-6ninH9tnSTgVvdmOia6+FffojTcbYzZBgG7olxQCfxrwqeof4bdBq5s+7a5uLLrko7VOUZBOM5Ag0twisNpLHg==
   dependencies:
-    "@pnpm/types" "8.4.0"
-    json5 "^2.1.3"
+    "@pnpm/types" "8.5.0"
+    json5 "^2.2.1"
     write-file-atomic "^3.0.3"
     write-yaml-file "^4.2.0"
 
@@ -10425,13 +10425,13 @@ find-cache-dir@^3.3.1, find-cache-dir@^3.3.2:
     make-dir "^3.0.2"
     pkg-dir "^4.1.0"
 
-find-packages@9.0.7:
-  version "9.0.7"
-  resolved "https://registry.yarnpkg.com/find-packages/-/find-packages-9.0.7.tgz#4039685b8ef54f1bab1ae0da4a3adfcfae3e627e"
-  integrity sha512-u0WPAaqn4GcWzy7p4Q1GNgOlmk66skMBxUmrTB/iBE7GuRAUi3dIyJAroQHAXAmajLwtsukHcBOkXZ7Es6fi5w==
+find-packages@9.0.8:
+  version "9.0.8"
+  resolved "https://registry.yarnpkg.com/find-packages/-/find-packages-9.0.8.tgz#e83a24a872f985360cecc86b61be51c55d9ec4ad"
+  integrity sha512-t83Z4JIqGl0jf52Kf+2CpztPvtynmuhN34DM0edFdw+8MiZeABswFUmqrmpIDkUWvdV2QElJo6Fh5wpa+VW6Dg==
   dependencies:
-    "@pnpm/read-project-manifest" "3.0.7"
-    "@pnpm/types" "8.4.0"
+    "@pnpm/read-project-manifest" "3.0.8"
+    "@pnpm/types" "8.5.0"
     fast-glob "^3.2.11"
     p-filter "^2.1.0"
 
@@ -11154,10 +11154,10 @@ globule@^1.0.0:
     lodash "^4.17.21"
     minimatch "~3.0.2"
 
-good-enough-parser@1.1.10:
-  version "1.1.10"
-  resolved "https://registry.yarnpkg.com/good-enough-parser/-/good-enough-parser-1.1.10.tgz#bcf5f59369f7fe3f0f621c8b2365171e4f41faf0"
-  integrity sha512-xSMiofggibG9rSt5P92ygB2tcgzgPMCVWPoI5sjnuNu5Id+p4zj4zYXkmQuKvD+c19ZUBfNCL0MFdnti/IBF1g==
+good-enough-parser@1.1.14:
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/good-enough-parser/-/good-enough-parser-1.1.14.tgz#32a400d89cebd5e1d75828da16b86a33af8db2b8"
+  integrity sha512-HaVgaqJhU7rS7r3wprWmQOXxN8FFkjyss2cQWaJZqTL0bYE5shtpwC4aY2I7ZaMLuxhj06MRD87XqNsw8Os8uw==
   dependencies:
     "@thi.ng/zipper" "1.0.3"
     "@types/moo" "0.5.5"
@@ -16917,10 +16917,10 @@ renderkid@^2.0.4:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@32.146.0:
-  version "32.146.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.146.0.tgz#c3ea7f72af54a26bcfa33475180b2b2c6cab71e2"
-  integrity sha512-lKeh6r6CxhBlYkKP+f+2QKMNHA9bTX6AepebjtRi6jio/rB8Fw42sDUC4ekP9ehTDu4BH5FvQf48HjLTRCJHeQ==
+renovate@32.152.0:
+  version "32.152.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.152.0.tgz#fb8f49e1ef1c33e1f6e797ebbda70b7db192ab87"
+  integrity sha512-v1hrp1npPoEmoo5lcdDqI6T1qN6f4KnSiDEWeQ8LgWiU7H+8nj+Qlr2cH39FzZdEw2uaFUuht3hmw5THaRIcSg==
   dependencies:
     "@aws-sdk/client-ec2" "3.112.0"
     "@aws-sdk/client-ecr" "3.112.0"
@@ -16956,13 +16956,13 @@ renovate@32.146.0:
     emojibase-regex "6.0.1"
     extract-zip "2.0.1"
     fast-safe-stringify "2.1.1"
-    find-packages "9.0.7"
+    find-packages "9.0.8"
     find-up "5.0.0"
     fs-extra "10.1.0"
     git-url-parse "12.0.0"
     github-url-from-git "1.5.0"
     global-agent "3.0.0"
-    good-enough-parser "1.1.10"
+    good-enough-parser "1.1.14"
     got "11.8.5"
     graph-data-structure "2.0.0"
     handlebars "4.7.7"
@@ -16994,7 +16994,7 @@ renovate@32.146.0:
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "2.1.2"
-    simple-git "3.10.0"
+    simple-git "3.11.0"
     slugify "1.6.5"
     traverse "0.6.6"
     tslib "2.4.0"
@@ -17669,10 +17669,10 @@ signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
-simple-git@3.10.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.10.0.tgz#f20031dd121d3c49e215ef0186a102bece3f89b2"
-  integrity sha512-2w35xrS5rVtAW0g67LqtxCZN5cdddz/woQRfS0OJXaljXEoTychZ4jnE+CQgra/wX4ZvHeiChTUMenCwfIYEYw==
+simple-git@3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.11.0.tgz#fd8c98756f671e8056d7c0023394dadf1e3124b7"
+  integrity sha512-XULamN/hxviH/ABjDbxJqUTpH59Pn3fHRtwZZZ6v7KWTLE3wKl6CLB0SPXFfzjalQ5hUp+R5DWX2X8rKm4crvw==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
