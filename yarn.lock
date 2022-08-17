@@ -3909,12 +3909,12 @@
   dependencies:
     nx "14.5.4"
 
-"@nrwl/cli@14.5.6":
-  version "14.5.6"
-  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-14.5.6.tgz#1c1f33fe128234aae92c1fb6cf97317d2835983f"
-  integrity sha512-twTR2nzA8xtTQHgMOUxNCXutRQ4OWT9eeJID3H6C5Ev5Mhi25fZheodVOQu72MpMWHhdtH7/7kHzULJaRsTjHw==
+"@nrwl/cli@14.5.7":
+  version "14.5.7"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-14.5.7.tgz#c5aad51bd07b07c84949f300eb0779455a16ba50"
+  integrity sha512-VbjUx8hkNxjA/vFGUrcqfQ8yZgnL0JfUxO0M5pLUaffZMCpAt/eXw6ufd35GaQ91RWHeI7FX0Zv+Ke8d+tZcuA==
   dependencies:
-    nx "14.5.6"
+    nx "14.5.7"
 
 "@nrwl/tao@14.5.4":
   version "14.5.4"
@@ -3923,12 +3923,12 @@
   dependencies:
     nx "14.5.4"
 
-"@nrwl/tao@14.5.6":
-  version "14.5.6"
-  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-14.5.6.tgz#4bff203d06478c839cf15b91719aae3b6920f8ff"
-  integrity sha512-EIbYLhSU85SaYd95t3Mwcy09KVPyPd3DlE7sZBaS3TzFEgOi0o9DLrpHRiZWfUJYgY9ltZHPCQn2hKpd7h7auw==
+"@nrwl/tao@14.5.7":
+  version "14.5.7"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-14.5.7.tgz#ce94fb9b24cb800e41e3e9b942cbdde57c598882"
+  integrity sha512-6REA1aedpBXYBSgqMhJHllHCf6jveV8KycuNYIXy5r8BbCJPjTloiMrrACwUhGAqHDaP3FvvlTy2JiKAmBqlJQ==
   dependencies:
-    nx "14.5.6"
+    nx "14.5.7"
 
 "@octokit/auth-token@^3.0.0":
   version "3.0.0"
@@ -6149,14 +6149,6 @@
     "@typescript-eslint/types" "5.30.5"
     "@typescript-eslint/visitor-keys" "5.30.5"
 
-"@typescript-eslint/scope-manager@5.33.0":
-  version "5.33.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-5.33.0.tgz#509d7fa540a2c58f66bdcfcf278a3fa79002e18d"
-  integrity sha512-/Jta8yMNpXYpRDl8EwF/M8It2A9sFJTubDo0ATZefGXmOqlaBffEw0ZbkbQ7TNDK6q55NPHFshGBPAZvZkE8Pw==
-  dependencies:
-    "@typescript-eslint/types" "5.33.0"
-    "@typescript-eslint/visitor-keys" "5.33.0"
-
 "@typescript-eslint/scope-manager@5.33.1":
   version "5.33.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-5.33.1.tgz#8d31553e1b874210018ca069b3d192c6d23bc493"
@@ -6179,11 +6171,6 @@
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.30.5.tgz#36a0c05a72af3623cdf9ee8b81ea743b7de75a98"
   integrity sha512-kZ80w/M2AvsbRvOr3PjaNh6qEW1LFqs2pLdo2s5R38B2HYXG8Z0PP48/4+j1QHJFL3ssHIbJ4odPRS8PlHrFfw==
 
-"@typescript-eslint/types@5.33.0":
-  version "5.33.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.33.0.tgz#d41c584831805554b063791338b0220b613a275b"
-  integrity sha512-nIMt96JngB4MYFYXpZ/3ZNU4GWPNdBbcB5w2rDOCpXOVUkhtNlG2mmm8uXhubhidRZdwMaMBap7Uk8SZMU/ppw==
-
 "@typescript-eslint/types@5.33.1":
   version "5.33.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.33.1.tgz#3faef41793d527a519e19ab2747c12d6f3741ff7"
@@ -6196,19 +6183,6 @@
   dependencies:
     "@typescript-eslint/types" "5.30.5"
     "@typescript-eslint/visitor-keys" "5.30.5"
-    debug "^4.3.4"
-    globby "^11.1.0"
-    is-glob "^4.0.3"
-    semver "^7.3.7"
-    tsutils "^3.21.0"
-
-"@typescript-eslint/typescript-estree@5.33.0":
-  version "5.33.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.33.0.tgz#02d9c9ade6f4897c09e3508c27de53ad6bfa54cf"
-  integrity sha512-tqq3MRLlggkJKJUrzM6wltk8NckKyyorCSGMq4eVkyL5sDYzJJcMgZATqmF8fLdsWrW7OjjIZ1m9v81vKcaqwQ==
-  dependencies:
-    "@typescript-eslint/types" "5.33.0"
-    "@typescript-eslint/visitor-keys" "5.33.0"
     debug "^4.3.4"
     globby "^11.1.0"
     is-glob "^4.0.3"
@@ -6258,14 +6232,6 @@
   integrity sha512-D+xtGo9HUMELzWIUqcQc0p2PO4NyvTrgIOK/VnSH083+8sq0tiLozNRKuLarwHYGRuA6TVBQSuuLwJUDWd3aaA==
   dependencies:
     "@typescript-eslint/types" "5.30.5"
-    eslint-visitor-keys "^3.3.0"
-
-"@typescript-eslint/visitor-keys@5.33.0":
-  version "5.33.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-5.33.0.tgz#fbcbb074e460c11046e067bc3384b5d66b555484"
-  integrity sha512-/XsqCzD4t+Y9p5wd9HZiptuGKBlaZO5showwqODii5C0nZawxWLF+Q6k5wYHBrQv96h6GYKyqqMHCSTqta8Kiw==
-  dependencies:
-    "@typescript-eslint/types" "5.33.0"
     eslint-visitor-keys "^3.3.0"
 
 "@typescript-eslint/visitor-keys@5.33.1":
@@ -14882,13 +14848,13 @@ nx@14.5.4, "nx@>=14.5.4 < 16":
     yargs "^17.4.0"
     yargs-parser "21.0.1"
 
-nx@14.5.6:
-  version "14.5.6"
-  resolved "https://registry.yarnpkg.com/nx/-/nx-14.5.6.tgz#c0a24af050ee21979ed4dbe7cc0f7d39925df527"
-  integrity sha512-HqOCRKBFPyyauZVTHyF7l5x97xYGukTjeQXxZD5LdVxiL1lSyaOtBCTNUmOge/jCPH3crvSeV2Wt58ZF4u0yaw==
+nx@14.5.7:
+  version "14.5.7"
+  resolved "https://registry.yarnpkg.com/nx/-/nx-14.5.7.tgz#dddf810d6efa921012f60fb9983ef76978e5a696"
+  integrity sha512-Pa1YeVZoLejpv3zuZvUNxQ+h3eb74uuYuFKCqUVg1IO7dVL6aCvJRS6BUHktc8x9BhKurK12bbWG1wahXkGJtw==
   dependencies:
-    "@nrwl/cli" "14.5.6"
-    "@nrwl/tao" "14.5.6"
+    "@nrwl/cli" "14.5.7"
+    "@nrwl/tao" "14.5.7"
     "@parcel/watcher" "2.0.4"
     chalk "4.1.0"
     chokidar "^3.5.1"
