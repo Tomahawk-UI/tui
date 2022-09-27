@@ -14957,10 +14957,10 @@ node-gyp@^9.0.0:
     tar "^6.1.2"
     which "^2.0.2"
 
-node-html-parser@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-6.0.0.tgz#da86ce139ba0b9ec72f86f32a5997738f2b51255"
-  integrity sha512-o4vS5Jm7ZdV5WN4/jHmCEVJOpm4exLCeXOcZnNzXi0BGv0AS8FsGwyQ4k0Ujmui1NMQs6qsTy+amjjpr9rmz4Q==
+node-html-parser@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-6.1.0.tgz#5784ac4d323e5df3f23e6a3f493a43a6e67e5843"
+  integrity sha512-lL3NirV1ihtYPfjTljB5Vu6gxMfxzWNkM1cz3VzYLxm8tuDgZhOKuHwx1JjaT+ceStTjV43H71a+SUq9Jq3BJQ==
   dependencies:
     css-select "^4.2.1"
     he "1.2.0"
@@ -17352,10 +17352,10 @@ renderkid@^2.0.4:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@32.204.1:
-  version "32.204.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.204.1.tgz#103d9d4f2ef828d190989f731f53a8944cddbaae"
-  integrity sha512-t69oI3hxlBRETH4cqYhu3kV3t2/8mk3JdGQe+usranWUFXUXik9GCZXLAFowsHyxbPG+46sdHT+UpxdPsjxcOg==
+renovate@32.208.0:
+  version "32.208.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.208.0.tgz#cc8d93d8da2a698d29470066580ef0a6e7c7ab98"
+  integrity sha512-+bXYOM8nPKuy3fFXxLuea+aAcJQ39DP8FYV4+qhkDaxW8WFbxc7vy0Z9PFNaNtc+TifhYcmkJmsYM9JQzTSgDQ==
   dependencies:
     "@aws-sdk/client-ec2" "3.155.0"
     "@aws-sdk/client-ecr" "3.154.0"
@@ -17418,7 +17418,7 @@ renovate@32.204.1:
     minimatch "5.1.0"
     moo "0.5.1"
     nanoid "3.3.4"
-    node-html-parser "6.0.0"
+    node-html-parser "6.1.0"
     openpgp "5.5.0"
     p-all "3.0.0"
     p-map "4.0.0"
@@ -17442,6 +17442,7 @@ renovate@32.204.1:
     url-join "4.0.1"
     validate-npm-package-name "4.0.0"
     xmldoc "1.2.0"
+    zod "3.19.1"
   optionalDependencies:
     re2 "1.17.7"
 
@@ -20437,6 +20438,11 @@ zip-object@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/zip-object/-/zip-object-0.1.0.tgz#c1a0da04c88c837756e248680a03ff902ec3f53a"
   integrity sha512-eujiZK9Z3F/WuswEIWqlaNUwUj67oRw4Op5a1VeKw4n9XBkV7EdxtgblroWBYvLmD7XqZ1cjqsbmE3jU43prTA==
+
+zod@3.19.1:
+  version "3.19.1"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.19.1.tgz#112f074a97b50bfc4772d4ad1576814bd8ac4473"
+  integrity sha512-LYjZsEDhCdYET9ikFu6dVPGp2YH9DegXjdJToSzD9rO6fy4qiRYFoyEYwps88OseJlPyl2NOe2iJuhEhL7IpEA==
 
 zwitch@^1.0.0:
   version "1.0.5"
