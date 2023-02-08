@@ -53,7 +53,7 @@
     "react": "^18.2.0",
     "react-docgen": "^5.4.3",
     "react-dom": "^18.2.0",
-    "renovate": "34.8.0",
+    "renovate": "34.128.0",
     "rollup": "^3.0.0",
     "rollup-plugin-dts": "^5.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
