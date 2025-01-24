@@ -58,7 +58,7 @@
     "rollup-plugin-dts": "^5.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
-    "@rollup/plugin-terser": "^0.1.0",
+    "@rollup/plugin-terser": "^0.4.0",
     "rollup-plugin-typescript2": "^0.34.0",
     "rollup-plugin-uglify": "^6.0.4",
     "rollup-watch": "^4.3.1",
