@@ -9071,10 +9071,10 @@ croner@9.0.0:
   resolved "https://registry.yarnpkg.com/croner/-/croner-9.0.0.tgz#1db62160142cf32eb22622e9ae27ba29156883f7"
   integrity sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==
 
-cronstrue@2.54.0:
-  version "2.54.0"
-  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.54.0.tgz#67a10f083ef97dd26ae87f64de0007bd3eced413"
-  integrity sha512-vyp5NklDxA5MjPfQgkn0bA+0vRQe7Q9keX7RPdV6rMgd7LtDvbuKgnT+3T5ZAX16anSP5HmahcRp8mziXsLfaw==
+cronstrue@2.55.0:
+  version "2.55.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.55.0.tgz#c7dd69628556c53df925179a9500f0986379c961"
+  integrity sha512-ZsBZNtQWb0Rk6CNGJlzpPBYqNE7t93Aez5ZCExLihGwmIpE5qThSTDQzDV8Z1Nw6ksmLkwI98nPKyciZ5sH7dw==
 
 cross-spawn@^5.0.1:
   version "5.1.0"
@@ -11691,10 +11691,10 @@ graceful-fs@4.2.11, graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-graph-data-structure@4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-4.3.1.tgz#928bac20138e3157f783472495f35369294d5cef"
-  integrity sha512-S+Qp6xtMb4AAWsixMHShDx/X/RYaWQMvs+IksTW6jPyamRzx7xILfOdJ+qPfcbcteZeKa7KDRqeEQv+jHlrBmw==
+graph-data-structure@4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-4.4.0.tgz#f9930821503f57393f2cb3be9adea7b664d43f16"
+  integrity sha512-eQ/BL0WiwDQKADavJ2e72/5PFAaXoQa2nQ3YQa5v25FgwJOp13DhXoYQP0Q4QlepPEKZfJyab/xMrmJaKYdj/A==
 
 grapheme-splitter@^1.0.4:
   version "1.0.4"
@@ -16893,7 +16893,12 @@ preserve@^0.2.0:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.4.2.tgz#a5ce1fb522a588bf2b78ca44c6e6fe5aa5a2b13f"
   integrity sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==
 
-prettier@3.5.1, prettier@^3.0.0:
+prettier@3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.5.2.tgz#d066c6053200da0234bf8fa1ef45168abed8b914"
+  integrity sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==
+
+prettier@^3.0.0:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.5.1.tgz#22fac9d0b18c0b92055ac8fb619ac1c7bef02fb7"
   integrity sha512-hPpFQvHwL3Qv5AdRvBFMhnKo4tYxp0ReXiPn2bxkiohEX6mBeBwEpBSQTkD458RaaDKQMYSp4hX4UtfUTA5wDw==
@@ -17730,10 +17735,10 @@ renderkid@^2.0.4:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@39.184.0:
-  version "39.184.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.184.0.tgz#d31ac471f4487c0901f0102fa429887c938c7f09"
-  integrity sha512-vMJkEVshSoKOGkx9H2snt1CeqydVQw2AGiOTVDPBhhq73dWlVJL2bbZ2nhU/8d+Ldv9UWcRzWN9oguvSt3o6zA==
+renovate@39.185.4:
+  version "39.185.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.185.4.tgz#866ebb1d8a256616fad949fed30a4c8d596e6c6c"
+  integrity sha512-D90l1FPnzyN8Np95iHfX/VJrb2Ev3tGlamAE6q+epVbbrMfW0VTmcS0YMuwEt5sqRpqOyb7qPD0IfXMgvGEVhw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.738.0"
     "@aws-sdk/client-ec2" "3.738.0"
@@ -17777,7 +17782,7 @@ renovate@39.184.0:
     commander "13.1.0"
     conventional-commits-detector "1.0.3"
     croner "9.0.0"
-    cronstrue "2.54.0"
+    cronstrue "2.55.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "6.1.0"
@@ -17798,7 +17803,7 @@ renovate@39.184.0:
     good-enough-parser "1.1.23"
     google-auth-library "9.15.1"
     got "11.8.6"
-    graph-data-structure "4.3.1"
+    graph-data-structure "4.4.0"
     handlebars "4.7.8"
     ignore "7.0.3"
     ini "5.0.0"
@@ -17822,7 +17827,7 @@ renovate@39.184.0:
     p-queue "6.6.2"
     p-throttle "4.1.1"
     parse-link-header "2.0.0"
-    prettier "3.5.1"
+    prettier "3.5.2"
     protobufjs "7.4.0"
     punycode "2.3.1"
     redis "4.7.0"
