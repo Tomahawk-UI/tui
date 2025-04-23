@@ -51,7 +51,7 @@
     "postcss": "^8.4.14",
     "prettier": "^3.0.0",
     "react": "^19.0.0",
-    "react-docgen": "^7.0.0",
+    "react-docgen": "^8.0.0",
     "react-dom": "^19.0.0",
     "renovate": "39.238.1",
     "rollup": "^4.0.0",
