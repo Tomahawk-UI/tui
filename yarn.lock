@@ -4916,16 +4916,10 @@
     polished "^4.2.2"
     uuid "^9.0.0"
 
-"@storybook/addon-actions@^8.1.11":
-  version "8.5.6"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-8.5.6.tgz#ea8c76a8d61b324bd034f6f614f86b7760525f36"
-  integrity sha512-kREkqUNmaYFYL5NsgbtYXxuFbVGuoA1reQPYl/ToqI/ujXZo1XDo0o+Sztjj8r2GVAjaM6a96FUxEJ7yg1yBCg==
-  dependencies:
-    "@storybook/global" "^5.0.0"
-    "@types/uuid" "^9.0.1"
-    dequal "^2.0.2"
-    polished "^4.2.2"
-    uuid "^9.0.0"
+"@storybook/addon-actions@^9.0.6":
+  version "9.0.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-9.0.6.tgz#4af0c9ef82a058476b9b084d791ce835c20bba12"
+  integrity sha512-LV03ii5fVp5nfoAN4cMH2VyH5KRs6rIbaK1ojpOS+OcAzxL3gs95StBHWklPgKKz+QS6k2S4tzo6HZaWBYq8Ew==
 
 "@storybook/addon-backgrounds@8.1.11":
   version "8.1.11"
